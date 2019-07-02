@@ -1,0 +1,88 @@
+package estudiantes;
+
+import java.util.ArrayList;
+
+import java.util.Scanner;
+
+
+
+
+
+
+	public class Estudiantes{
+		
+	
+		static ArrayList<String> estudiante = new ArrayList <String>();
+		 static ArrayList<Double> velocidad = new ArrayList <Double>();
+		 static ArrayList<Double> tiempo = new ArrayList <Double>();
+	
+		
+	public static void main(String[] args) {
+
+		
+		  
+		Scanner entrada = new Scanner(System.in);
+		
+		
+		String nombreestudiante;
+		double velocidadestudiante;
+		double tiempoestudiante;
+		int numeroestudiantes;
+		
+		
+		
+		System.out.println("\n lista de estudiantes \n");
+		System.out.println("ingresando estudiantes");
+		
+		entrada.nextLine();
+		
+		for (int i=0;i<estudiante.size();i++){
+			
+		System.out.println("ingrese el numero de estudiantes");
+		numeroestudiantes=entrada.nextInt();
+		
+		
+		System.out.println("nombres: ");
+		nombreestudiante = entrada.nextLine();
+		estudiante.add = (nombreestudiante);
+		
+		System.out.println("velocidad: ");
+		velocidad = entrada.nextDouble();
+	        estudiante.add = (velocidadestudiante);
+		
+		
+		
+		tiempoestudiante=100/velocidadestudiante;
+		
+		System.out.println(tiempoestudiante);
+		
+		for (int i=0;i<estudiante.size();i++){
+			
+		if (tiempoestudiante<velocidadestudiante){
+			
+			System.out.println(tiempo);
+			
+		}else{
+			
+			
+				
+				if(velocidadestudiante>tiempoestudiante){
+					System.out.println(velocidad);
+				}
+			}
+		
+		
+			System.out.println(estudiante.get(i));
+			System.out.println(velocidad.get(i));
+			System.out.println(tiempo.get(i));
+
+		}
+		
+		}
+
+		
+		}
+
+		
+	}
+
